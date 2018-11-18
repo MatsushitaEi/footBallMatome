@@ -1,0 +1,25 @@
+/*===============================================
+●smart.css  画面の横幅が640pxまで
+===============================================*/
+@media screen and (max-width:640px){
+img{
+max-width:100%;
+height: auto;
+width:auto;　
+}
+.container{
+width:auto;
+}
+#menu {
+	display:none;
+}
+#pc{
+  display:none;
+}
+
+@media screen and (max-width: 40em) {
+	.slicknav_menu {
+		display:block;
+	}
+}
+}
